@@ -1,0 +1,77 @@
+#palette1-title, #palette2-title, #palette3-title {
+    font-family: sans-serif;
+    text-align: center;
+}
+#palette1-color1 {
+    background-color: #DCCCA3;
+    color: #926E78;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette1-color2 {
+    background-color: #AF8C8A;
+    color: #DCCCA3;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette1-color3 {
+    background-color: #926E78;
+    color: #DCCCA3;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette2-color1 {
+    background-color: #7CB5C6;
+    color: #C6CFB7;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette2-color2 {
+    background-color: #96C9DC;
+    color: #C6CFB7;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette2-color3 {
+    background-color: #C6CFB7;
+    color: #7CB5C6;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette2-color4 {
+    background-color: #F5D491;
+    color: #7CB5C6;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
+#palette3-color1 {
+    background-color: #EFFFFA;
+    color: #8A4FFF;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette3-color2 {
+    background-color: #C3BEF7;
+    color: #EFFFFA;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#palette3-color3 {
+    background-color: #8A4FFF;
+    color: #EFFFFA;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+
