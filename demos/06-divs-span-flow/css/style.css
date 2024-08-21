@@ -3,3 +3,6 @@
     background-color: lightsalmon;
     display: inline-block;
 }
+.bold {
+    font-weight: bold;
+}
