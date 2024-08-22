@@ -38,3 +38,23 @@
     background-color: darkorchid;
     border-color: pink;
 }
+
+.lime {
+    border-radius: 8px 40px;
+}
+
+.lemon {
+    border-radius: 40px 8px;
+}
+
+.circle {
+    border-radius: 40px;
+}
+
+.tear {
+    border-radius: 8px 40px 40px 40px;
+}
+
+.gumdrop {
+    border-radius: 40px 40px 8px 8px;
+}
