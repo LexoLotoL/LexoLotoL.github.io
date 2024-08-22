@@ -13,6 +13,12 @@
     display: inline-block;
     padding: 20px;
 }
+.tetris-block1 {
+    border-width: 12px;
+    border-style: solid;
+    display: inline-block;
+    padding: 20px;
+}
 
 .red {
     background-color: red;
@@ -37,6 +43,11 @@
 .pink{
     background-color: darkorchid;
     border-color: pink;
+}
+
+.orange{
+    background-color: orange;
+    border-color: goldenrod;
 }
 
 .lime {
