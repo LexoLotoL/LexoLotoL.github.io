@@ -1,0 +1,49 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+#image1 {
+    width: 95px;
+    margin: 65px 0px;
+    border: 10px inset rgb(133, 59, 59);
+    padding: 10px;
+    background-color: rgb(216, 165, 163);
+}
+
+#frame1 {
+    width: 80px;
+    border: 8px inset rgb(133, 117, 89);
+    padding: 10px;
+    margin: 60px 0px 0px 15px;
+    background-color: #47351d;
+}
+
+#image2 {
+    width: 80px;
+    display: inline-block;
+}
+
+#text {
+    width: 80px;
+    border: 8px inset rgb(79, 51, 86);
+    padding: 10px;
+    margin: 40% 50px 0px 50px;
+    /* margin-top: 40%;
+    margin-left: 50px;
+    margin-right: 50px; */
+    background-color: #b5b6a8;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+}
+
+.showing-area {
+    text-align: center;
+}
+
