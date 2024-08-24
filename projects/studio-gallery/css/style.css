@@ -37,13 +37,13 @@
     margin-left: 50px;
     margin-right: 50px; */
     background-color: #b5b6a8;
-    color: black;
+}
+
+#art {
+    text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 
     'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
     Verdana, sans-serif;
-}
-
-.showing-area {
-    text-align: center;
+    color: black;
 }
 
