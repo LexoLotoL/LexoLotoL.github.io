@@ -23,6 +23,10 @@ body {
     background-color: lightblue;
     padding: 48px 0px;
 }
+.yellow-container {
+    background-color: #f1f19e;
+    padding: 48px 0px;
+}
 
 .single-column{
     width: 50%;
