@@ -9,6 +9,7 @@ body {
 
 #two-columns {
     display: flex;
+    background-color: beige;
 }
 
 #sidebar-content {
@@ -45,4 +46,8 @@ body {
     max-width: 800px;
     /* order: 1; */
     margin: 48px;
+}
+
+#main-content h2 {
+    border-bottom: 2px solid #80643a;
 }
