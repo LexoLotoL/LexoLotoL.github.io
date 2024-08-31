@@ -3,8 +3,14 @@
 }
 
 body {
+    background: radial-gradient(
+        at top , 
+        #371968a2, 
+        #f6f5f8,
+        #321264
+    );
     margin: 0px;
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #grid-layout {
@@ -22,16 +28,17 @@ body {
 }
 
 #sidebar {
-    /* background-color: bisque; */
+    background-color: rgba(215, 211, 228, 0.984);
     grid-area: sidebar;
     padding: 0px 24px;
 }
 
 #main {
-    /* background-color: aquamarine; */
+    background-color: #b5afc7f2;
     grid-area: main;
     display: flex;
     flex-wrap: wrap;
+    margin: 12px;
 }
 
 /************************************************************** 
@@ -43,14 +50,14 @@ body {
 }
 
 #header #me {
-    color: #111111;
+    color: #111642;
 }
 
 #header #tube {
     color: white;
-    background-color: red;
+    background-color: #2a1748ef;
     padding: 4px;
-    border-radius: 12px;
+    border-radius: 12px 2px;
 }
 
 /************************************************************** 
@@ -61,19 +68,19 @@ body {
     padding: 12px 0px;
     margin: 0px;
     list-style-type: none;
-    border-bottom: 1px solid #AAAAAA;
+    border-bottom: 4px dotted #f6f5f8;
 }
 
 #sidebar ul a {
-    text-decoration: none;
-    color: #111111;
+    text-decoration:none;
+    color: #111642;
     padding: 12px;
     display: block;
 }
 
 /* pseudo-class */
 #sidebar ul a:hover {
-    background-color: #eeeeee;
+    background-color: #f6f5f8;
     border-radius: 12px;
 }
 
@@ -109,6 +116,7 @@ body {
 
 .metube-item h4 a:hover {
     text-decoration: underline;
+    color: #f6f5f8;
 }
 
 .metube-item .video-details {
@@ -119,6 +127,7 @@ body {
 .metube-item .video-channel {
     margin-bottom: 4px;
 }
+
 
 .metube-item img {
     width: 100%
