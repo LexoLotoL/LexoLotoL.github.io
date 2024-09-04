@@ -9,7 +9,7 @@ body {
 
 #page-layout {
     display: grid;
-    grid-template-columns: 150px 600px 400px;
+    grid-template-columns: 150px 600px 450px;
     grid-template-areas: "coloumn-one column-two column-three";
 }
 
@@ -69,13 +69,48 @@ body {
 
 #column-three {
     display: inline-block;
-    border: 8px solid #b14949;
+    border: 8px solid whitesmoke;
     padding: 0px 10px;    
-    background-color: rgb(139, 56, 56);
+    background-color: whitesmoke;
 }
 
 #column-three h1 {
     padding-left: 12px;
     padding-bottom: 12px;
     border-bottom: 2px solid #7d7979;
+}
+
+#seller {
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+#info {
+    border-bottom: 2px solid #7d7979;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+#column-three ul {
+    padding: 12px 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#column-three ul a {
+    text-decoration:none;
+    color: blue;
+    padding: 12px;
+    border-radius: 12px;
+    display: block;
+    outline: auto;
+    margin: 12px;
+
+}
+
+/* pseudo-class */
+#column-three ul a:hover {
+    background-color: #f6f5f8;
+    border-radius: 12px;
 }
