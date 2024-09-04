@@ -17,8 +17,10 @@ body {
     COLUMN ONE 
 ************************************************************/
 #column-one {
-    background-color: aqua;
+    background-color: whitesmoke;
+    border-right: 2px solid #d3cece;
     display: flex;
+    flex-direction: column;
     padding: 25px 25px
 }
 
@@ -50,3 +52,22 @@ body {
     COLUMN TWO
 ************************************************************/
 
+#column-two {
+    width: 600px;
+    border: 8px solid whites;
+    padding: 10px 10px;    
+    background-color: white;
+}
+
+#cats-main {
+    width: 555px;
+    padding: 24px
+}
+
+/************************************************************ 
+    COLUMN THREE
+************************************************************/
+
+#column-three {
+    
+}
