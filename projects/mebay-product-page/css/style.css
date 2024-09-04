@@ -4,5 +4,49 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family:sans-serif
 }
+
+#page-layout {
+    display: grid;
+    grid-template-columns: 150px 200px 200px;
+    grid-template-areas: "#coloumn-one #column-two #column-three";
+}
+
+/************************************************************ 
+    COLUMN ONE 
+************************************************************/
+#column-one {
+    background-color: aqua;
+    display: flex;
+    padding: 25px 25px
+}
+
+#cats1 {
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+#cats2 {
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+#cats3 {
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+#cats4 {
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+#cats5 {
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+#cats6 {
+    border-radius: 25px;
+}
+
+/************************************************************ 
+    COLUMN TWO
+************************************************************/
+
