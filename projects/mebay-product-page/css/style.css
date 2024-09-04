@@ -9,8 +9,8 @@ body {
 
 #page-layout {
     display: grid;
-    grid-template-columns: 150px 200px 200px;
-    grid-template-areas: "#coloumn-one #column-two #column-three";
+    grid-template-columns: 150px 600px 400px;
+    grid-template-areas: "coloumn-one column-two column-three";
 }
 
 /************************************************************ 
@@ -53,7 +53,6 @@ body {
 ************************************************************/
 
 #column-two {
-    width: 600px;
     border: 8px solid whites;
     padding: 10px 10px;    
     background-color: white;
@@ -69,5 +68,14 @@ body {
 ************************************************************/
 
 #column-three {
-    
+    display: inline-block;
+    border: 8px solid #b14949;
+    padding: 0px 10px;    
+    background-color: rgb(139, 56, 56);
+}
+
+#column-three h1 {
+    padding-left: 12px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #7d7979;
 }
