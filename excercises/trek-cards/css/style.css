@@ -14,7 +14,6 @@
     margin: 16px;
     box-shadow: 4px 4px 12px #00000087;
     width: 350px;
-    padding: 10px;
     background-color: #e5f6e5;
 }
 
@@ -22,6 +21,7 @@
     font-size: 24px;
     margin-top: 12px;
     text-align: center;
+    padding: 10px;
 }
 .card-style-1 p {
     font-size: 16px;
@@ -31,13 +31,11 @@
 
 .card-style-1 img {
     width: 350px;
-    margin: 0px -10px;  
 }
 
 .card-style-1 a {
     text-decoration: none;
     color: #e5f6e5;
-    margin: -10px -10px;  
     padding: 26px;
     display: block;
     background-color: green;
