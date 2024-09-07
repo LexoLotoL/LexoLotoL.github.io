@@ -1,0 +1,102 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+.card-style-3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+    min-width: 350px;
+    margin: 24px;
+    padding: 10px;
+}
+
+.card-style-3 {
+    border: 16px solid #238138;
+    border-radius: 10px;
+    background: radial-gradient(
+        at top left,
+        #7bef94,
+        #238138,
+        #7bef94);
+}
+
+.card-style-3 .pokemon-header {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-style-3 .pokemon-header .name {
+    margin: 10px 25px 0px 0px;
+    font-size: 26px;
+    flex: 1;
+}
+
+.card-style-3 .pokemon-header .health {
+    text-align: right;
+    flex: 1;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.card-style-3 img {
+    display: inline-block;
+    border: 6px solid #238138;
+    width: 300px;
+}
+
+.card-style-3 .details {
+    display: inline-block;
+    background-color: #238138;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 2px 4px;
+    align-items: center;
+    width: 300px;
+}
+
+.card-style-3 .attack {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+    width: 300px;
+    margin-left: 5px;
+    margin-top: 24px;
+}
+
+.card-style-3 .attack .energy {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-left: 5px;
+    margin-top: 24px;
+}
+
+.card-style-3 .attack .description {
+    display: flex;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 20px;
+}
+
+
+.card-style-3 .attack .description .bold {
+    font-weight: bold;
+    font-size: 20px
+}
+
+.card-style-3 .attack .description
