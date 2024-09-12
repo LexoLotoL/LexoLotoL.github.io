@@ -20,7 +20,7 @@
 }
 
 .card-style-3 {
-    border: 16px solid #238138;
+    border: 16px solid gold;
     border-radius: 10px;
     background: radial-gradient(
         at top left,
@@ -51,35 +51,35 @@
 
 .card-style-3 img {
     display: inline-block;
-    border: 6px solid #238138;
+    border: 6px solid goldenrod;
     width: 300px;
 }
 
 .card-style-3 .details {
     display: inline-block;
-    background-color: #238138;
+    background-color: goldenrod;;
     font-size: 12px;
     font-style: italic;
     font-weight: bold;
     margin-top: 5px;
     padding: 2px 4px;
     align-items: center;
+    text-align: center;
     width: 300px;
 }
 
 .card-style-3 .attack {
     display: flex;
-    flex-wrap: wrap;
     border-bottom: 2px solid black;
     width: 300px;
     margin-left: 5px;
     margin-top: 24px;
+    text-align: left;
 }
 
 .card-style-3 .attack .energy {
     display: flex;
-    flex-wrap: wrap;
-    width: 300px;
+    flex: 1;
     margin-left: 5px;
     margin-top: 24px;
 }
@@ -88,15 +88,30 @@
     display: flex;
     display: inline-block;
     font-size: 15px;
-    margin-left: 48px;
-    margin-right: 48px;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 
 .card-style-3 .attack .description .bold {
     font-weight: bold;
-    font-size: 20px
+    font-size: 20px;
 }
 
-.card-style-3 .attack .description
+.card-style-3 .attack .power {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.card-style-3 .data {
+    display: flex;
+    display: inline-block;
+    padding: 2px;
+    border: 2px solid goldenrod;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 12px;
+}
