@@ -4,82 +4,118 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .spacer {
-    height: 100vh;
+    height: 150vh;
 }
 
-#hero-homepage {
-    background-image: url("../images/hero-1.jpg");
+/***************************************
+    HOMEPAGE 
+***************************************/
+
+#homepage {
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#hero {
+    background-image: url("../images/homepage.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
     position: relative;
-}
-        
-#hero-homepage .hero-content {
-    position: absolute;
-    top: 5%;
-    left: 10%;
-}
-        
-#hero-homepage h1 {
-    font-size: 60px;
-    margin-bottom: 5vh;
-    margin-right: 5vw;
-}
-        
-#hero-homepage h4 {
-    font-size: 36px;
-    color: #000001;
-    margin: 0px 5vw 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#card-container {
-    min-width: 600px;
-    max-width: 20px;
-    margin-right: 200px;
-    margin-top: 50px;
+#hero .hero-content {
+    text-align: center;
+    color: lightcyan;
+}
+
+#hero .hero-content h1 {
+    font-size: 55px;
+    display: block;
+    font-weight: bold;
+    color: lightcyan
+}
+
+#hero .hero-content p a {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: lightcyan;
+    border: 15px dotted #c8ca59;
+    /* background-color: #c8ca59; */
+    padding: 20px;
+}
+
+#hero .hero-content p a:hover {
+    font-size: 20px;
+    background-color: transparent;
+    border: 15px dotted lightcyan;
+    color: #c8ca59;
+}
+
+.single-column {
+    min-width: 500px;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.card-section {
+    display: block;
+    background-color: #ae4f62;
+    color: lightcyan;
+    padding: 28px;
+}
+
+.card-container {
     display: flex;
     justify-content: space-between;
-    
-}      
+}
 .card {
-    min-width: 175px;
-    max-width: 100px;
-    border: 5px solid #c55a34;
-    border-radius: 5px;
-    padding: 7px;
-    box-shadow: -4px 4px 12px #282626;
-    background-color: #282523;
-}
-
-#card-container .card a {
-    font-size: 20px;
-    display: inline-block;
-    color: #282523;
-    text-decoration: none;
+    flex: 1;
+    border: 15px dotted #c8ca59;
+    padding: 0px 20px;
     text-align: center;
-    border: 0px solid none;
-    background-color: antiquewhite;
-    width: 150px;
+    margin: 28px;
+    padding-bottom: 0px;
+    border-radius: 30px;
+    
+}
+.card p a {
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: lightcyan;
+    background-color: #c8ca59;
+    padding: 20px;
+    border-radius: 5px;
 }
 
-#card-container .card img {
-    width: 150px;
-}
-
-#card-container .card a:hover {
+.card-container .card a:hover {
+    font-size: 18px;
     background-color: transparent;
-    color: #e05858;
+    color: #c8ca59;
 }
 
 /***************************************
     Adobe Illistrator Gallery 
 ***************************************/
 
+#gallery {
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    padding: 12px 12px;
+    align-items: center;
+}
 #gallery h2 {
     font-size: 40px;
     color: #000001;
