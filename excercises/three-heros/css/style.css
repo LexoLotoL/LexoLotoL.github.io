@@ -71,18 +71,16 @@ body {
 
 #hero-2 .hero-content {
     text-align: center;
-    color: #e928c2;
+    color: #2875e9;
     padding-top: 20vh;
 }
     
 #hero-2 h1 {
-    font-size: 8vw;
-    margin-bottom: 5vh;
+    font-size: 60px;
 }
     
 #hero-2 p {
-    font-size: 3vw;
-    margin: 0px;
+    font-size: 48px;
 }
     
 #hero-2 .hero-content  a {
