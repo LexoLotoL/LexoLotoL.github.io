@@ -5,4 +5,87 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background: radial-gradient(
+        at top , 
+        #506819a2, 
+        #f6f5f8,
+        #124664,
+        #506819a2
+    
+    );
+}
+
+/******************************************* 
+        Hero-HOMEPAGE
+*******************************************/
+
+
+#homepage {
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#hero {
+    background-image: url("../images/hero1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    text-align: center;
+}
+
+#hero .hero-content h1 {
+    font-size: 55px;
+    display: block;
+    font-weight: bold;
+    color: #a21b55
+}
+
+#hero .hero-content p a {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 15px outset #252520;
+    background-color: #731e43;
+    padding: 20px;
+}
+
+#hero .hero-content p a:hover {
+    font-size: 20px;
+    background-color: transparent;
+    border: 15px inset #252520;
+    background-color: transparent;
+    color: #731e43;
+}
+
+
+
+
+/******************************************* 
+        GALLERY 
+*******************************************/
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#layout h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #071148;
+}
+
+.gallery img {
+    width: 250px;
+    margin: auto;
 }
