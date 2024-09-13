@@ -6,3 +6,151 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+/*************************************
+    HERO ONE 
+**************************************/
+
+#hero-1 {
+    background-image: url("../images/hero1.jpg");
+    height: 1000px;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-bottom: 400px;
+    text-align: center;
+}
+
+#hero-1 h1 {
+    font-size: 60px;
+    color: aqua;
+}
+
+#hero-1 p {
+    font-size: 36px;
+    color: lightcyan
+}
+
+#hero-1 .hero-content  a {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: lightcyan;
+    background-color: #c8ca59;
+    padding: 20px;
+}
+
+#hero-1 .hero-content a:hover {
+    font-size: 20px;
+    background-color: transparent;
+    color: #c8ca59;
+}
+
+/*************************************
+    HERO TWO
+**************************************/
+
+#hero-2 {
+    background-image: url("../images/hero2.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-2 .hero-content {
+    text-align: center;
+    color: #e928c2;
+    padding-top: 20vh;
+}
+    
+#hero-2 h1 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+}
+    
+#hero-2 p {
+    font-size: 3vw;
+    margin: 0px;
+}
+    
+#hero-2 .hero-content  a {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: lightcyan;
+    background-color: #c8ca59;
+    padding: 20px;
+}
+
+#hero-2 .hero-content a:hover {
+    font-size: 20px;
+    background-color: transparent;
+    color: #c8ca59;
+}
+
+
+
+/*************************************
+    HERO THREE
+**************************************/
+
+#hero-3 {
+    background-image: url("../images/hero3.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+#hero-3 h1 {
+    font-size: 40px;
+}
+    
+#hero-3 p {
+    font-size: 36px;
+}
+
+
+
+#hero-3 .hero-content  a {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: lightcyan;
+    background-color: #c8ca59;
+    padding: 20px;
+}
+
+#hero-3 .hero-content a:hover {
+    font-size: 20px;
+    background-color: transparent;
+    color: #c8ca59;
+}
+
+#hero-3 .hero-content {
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    text-align: right;
+    margin-right: 200px;
+}
+
+.spacer {
+    height: 100vh;
+}
