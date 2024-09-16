@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(
+        to bottom,
+        #a5f0a5,
+        #3e6d61
+    );
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+#navbar #logo-link {
+    margin-right: auto;
+}
+
+#navbar #link {
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+
+#navbar {
+    position: sticky;
+    top: 0px;
+}
+
+/**********************
+    NAVBAR 2 
+**********************/
+#navbar-2 {
+    background: linear-gradient(
+        to bottom,
+        #e2b568,
+        #f1a40a
+    );
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: #2a1b1b;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#navbar-2 #logo-link {
+    margin-right: auto;
+    color: #a53329;
+}
+
+#navbar-2 .cta-button {
+    background-color: #a53329;
+    color: #f5c841;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+/**********************
+    NAVBAR 3 
+**********************/
+#navbar-top {
+    background: linear-gradient(
+        to bottom,
+        #fa4f00,
+        #000000
+    );
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#navbar-top a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#navbar-3 {
+    background: linear-gradient(
+        to bottom,
+        #9b0f0f,
+        #40331a
+    );
+    display: flex;
+    align-items: center;
+}
+
+#navbar-3 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+
+}
+
+#navbar-3 #logo-link {
+    margin-right: auto;
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navbar-3 .cta-button {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
+
+#navbar-3 {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-3-bottom {
+    background: linear-gradient(
+        to bottom,
+        yellowgreen,
+        olive
+    );
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-3-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+}
+
+#navbar-3-bottom {
+    position: sticky;
+    top: 115px;
+}
