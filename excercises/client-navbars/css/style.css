@@ -109,7 +109,7 @@ body {
 
 #navbar-3 a {
     text-decoration: none;
-    color: white;
+    color: antiquewhite;
     padding: 24px;
 
 }
@@ -121,8 +121,8 @@ body {
 }
 
 #navbar-3 .cta-button {
-    background-color: white;
-    color: green;
+    background-color: antiquewhite;
+    color: #121212;
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
@@ -130,13 +130,6 @@ body {
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
-}
-
-#layout {
-    width: 800px;
-    margin: 48px auto;
-    font-size: 24px;
-    height: 200vh;
 }
 
 #navbar-3 {
@@ -147,16 +140,17 @@ body {
 #navbar-3-bottom {
     background: linear-gradient(
         to bottom,
-        yellowgreen,
+        rgb(24, 27, 20),
         olive
     );
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
+    align-items: center;
 }
 
 #navbar-3-bottom a {
     text-decoration: none;
-    color: white;
+    color: antiquewhite;
     padding: 12px 36px;
 }
 
