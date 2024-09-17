@@ -220,7 +220,7 @@ a {
     }
 
     #hero h1 {
-        font-size: 48px;
+        font-size: 40px;
     }
     
     #hero h3 {
@@ -231,6 +231,17 @@ a {
         margin-top: 24px;
         flex-direction: column;
     }
+
+    .three-cards h3 {
+        font-size: 20px;
+    }
+
+    .three-cards .card a {
+        font-size: 18px;
+        display: inline-block;
+        width: 250px;
+    }
+
     
     .two-cards {
         flex-direction: column;
