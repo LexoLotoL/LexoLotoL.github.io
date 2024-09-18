@@ -118,7 +118,7 @@ body {
 ************************************************/
 @media screen and (max-width: 768px) and (min-width: 481px) {
     body {
-        /* background-color: skyblue; */
+        background-color: skyblue;
     }
 
     .content-container h1 {
@@ -154,7 +154,7 @@ body {
 
 @media screen and (max-width: 480px) {
     body {
-        /* background-color: firebrick; */
+        background-color: firebrick;
     }
 
     #nav {
