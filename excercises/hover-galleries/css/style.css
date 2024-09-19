@@ -26,7 +26,11 @@ body {
     padding: 12px;
     margin-top: 36px;
 }
-    
+
+#row{
+    display: flex;
+}
+
 .card1:hover {
     background-color: #e7770f;
     box-shadow: 4px 4px 4px #00000033;
@@ -35,9 +39,7 @@ body {
     
 .card1 {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     width: 300px;
     transition: 
         background-color 0.5s,
