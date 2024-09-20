@@ -211,21 +211,19 @@ body {
 
 
 
-@media screen and (max-width: 768px) and (min-width: 481px) {
-    body {
-        background-color: skyblue;
+@media screen and (max-width: 800px) and (min-width: 481px)  {
+    #navbar {
+        flex-direction: column;
     }
 
-    .content-container h1 {
-        font-size: 32px;
+    #navbar #logo{
+        margin-left: auto;
     }
 
-    .intro {
-        gap: 20px;
+    .hero-content {
+        
+
     }
 
-    .image-container {
-        height: 300px;
-    }
 
 }
