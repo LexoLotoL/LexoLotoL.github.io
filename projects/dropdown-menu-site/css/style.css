@@ -8,70 +8,132 @@ body {
 }
 
 #navbar {
-    background: linear-gradient(to bottom, #109cb8,#0e5b96);
+    background: linear-gradient(to bottom, #e8e3d8,#a9d2e8);
     display: flex;
     align-items: center;
-}
-    
+    border-bottom: 8px solid #e78675;
+} 
+
 #navbar a {
     display: inline-block;
-    text-decoration: none;
-    color: white;
-    padding: 24px;
-}
-    
-#navbar a:hover {
-    background: linear-gradient(to top, #109cb8,#0e5b96);
-}
-    
-#navbar #logo {
-    margin-right: auto;
+    font-size: 24px;
+    font-family: cursive;
     font-weight: bold;
-    font-size: 36px;
+    text-decoration: none;
+    border-radius: 24px;
+    padding: 16px 24px;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    color: #1f4041;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}  
+
+#navbar a:hover {
+    color: #ffffff;
+    border-radius: 24px;
+    background-color: #a9d2e8;
+    padding: 16px 24px;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    color: #ffffff;
+    font-size: 24px;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}   
+
+#navbar #logo {
+    display: inline-block;
+    border-radius: 0cap;
+    margin-right: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    font-weight: normal;
     padding-top: 13px;
     padding-bottom: 12px;
+    transition: none;
+    transform: none;
 }
-    
-  
+
+#navbar #logo:hover {
+    display: inline-block;
+    background: none;
+    box-shadow: none;
+}
+
+#navbar #donate {
+    background-color: #e78675;
+    color: #ffffff;
+    border-radius: 24px;
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#navbar #donate:hover {
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
 .dropdown-container {
     position: relative;
-}
-    
+} 
+
 .dropdown-menu {
     position: absolute;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.25s,visibility 0.25s;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
     z-index: 10;
 }
 
-    
 .dropdown-container:last-child .dropdown-menu {
     right: 0px;
-}
-    
-    
+} 
+
 .dropdown-container:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
-}
-    
+} 
+
 .dropdown-menu a {
-    background-color: darkslateblue;
+    background-color: #a9d2e8;
     width: 100%;
     min-width: 200px;
 }
     
 #navbar .dropdown-menu a:hover {
-    background: slateblue;
+    color: #ffffff;
+    background: #a9d2e8;
 }
 
 #hero-1 {
-    background-image: url("../images/pple-interact.jpg");
-    height: 1000px;
+    background-image: url("../images/pawprint.jpg");
     background-size: cover;
-    background-position: center center;
+    color: white;
+    height: 1000px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 20px;  
+}
+
+#hero-1 .hero-content img {
+    border-radius: 24px;
+    height: 850px;
+    margin-bottom: 96px;
 }

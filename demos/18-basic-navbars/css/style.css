@@ -52,6 +52,11 @@ body {
     margin-right: 24px;
 }
 
+#navbar .cta-button {
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
 #layout {
     width: 800px;
     margin: 48px auto;
