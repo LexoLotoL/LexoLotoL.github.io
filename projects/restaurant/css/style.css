@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #352E30;
+}
+
+
+/***************************************************** 
+        Header - Navbar
+*****************************************************/
+
+
+.content-column {
+    width: 1000px;
+    margin: 0px auto;}
+    
+#navbar-top {
+    background-color: black;}
+    
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+    
+#navbar-top a {
+    text-decoration: none;
+    color: #2e874e;
+    padding: 24px 0px;
+}
+    
+#navbar-top .content-column div a {
+    padding: 24px;
+    font-size: 24px;
+    margin-left: 485px;
+}
+    
+#navbar-top #logo img {
+    width: 200px;
+}
+    
+#navbar-top .cta-buttom {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+    
+#navbar-bottom {
+    background: linear-gradient(to bottom, #352E30, #2E874E);
+}
+    
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+#navbar-bottom a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 12px 0px;
+}
+
+/***************************************************** 
+        Header - Dropdown
+*****************************************************/
+
+.content-column #logo:hover {
+    display: inline-block;
+    background-color: #69547515;
+    width: 200px;
+    box-shadow: none;
+    margin: 0px;
+}
+
+#navbar-top .content-column div a:hover {
+    padding: 24px;
+    font-size: 24px;
+    color: #695475;
+    margin-left: 485px;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#navbar-top .cta-buttom:hover {
+    background-color: #695475;
+    color: #ffffff;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#navbar-bottom .content-column a:hover {
+    display: inline-block;
+    background: #695475;
+    padding: 12px 0px;
+    border-radius: 24px solid none;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+.dropdown-container {
+    position: relative;
+}
+    
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+    z-index: 10;
+}
+.dropdown-menu a {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin: 0px;
+    border: 1px solid none;
+    width: 100%;
+    min-width: 200px;
+    text-align: center;
+}
+    
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+    
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+    
+.dropdown-menu a {
+    background-color: #2E874E;
+    width: 100%;
+    min-width: 200px;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+    
+#navbar .dropdown-menu a:hover {
+    background: #695475;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+
+
+/***************************************************** 
+        Body - Hero
+*****************************************************/
+
+.spacer {
+    height: 100vh;
+}
+    
+#hero {
+    background-image: url("../images/delicious-traditional-pizza.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 24px;
+    border: 10px double #2E874E;
+}
+    
+#hero .hero-content {
+    text-align: center;
+    color: #352E30;
+    display: inline-block;
+    border: 10px solid none;
+    background-color: #ffffff3d;
+    border-radius: 0px 100px;
+    padding: 0px 24px;
+}
+    
+#hero h2 {
+    font-size: 60px;
+    margin-bottom: 5vh;
+}
+    
+#hero h4 {
+    font-size: 48px;
+    margin: 0px;
+}
+    
+#hero a {
+    font-size: 24px;
+    display: inline-block;
+    background-color: #695475;
+    border: 4px solid #493b52;
+    border-radius: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 24px 48px;
+    margin: 5vh 2vw 10vh;
+}
+
+#hero .hero-content div a:hover {
+    font-size: 24px;
+    display: inline-block;
+    background-color: #2E874E;
+    border: 4px solid #1a4c2d;
+    border-radius: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 24px 48px;
+    margin: 5vh 2vw 10vh;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+/***************************************************** 
+        Body - TWO COLUMNS
+*****************************************************/
+
+.two-columns {
+    display: flex;
+    height: 80vh;
+    margin: 24px 24px;
+}
+    
+.big-text-column,
+.img-column {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.big-text-column {
+    background-color: #FFFFFF;
+    color: #2E874E;
+    font-size: 28px;
+}
+    
+.column-content {
+    display: inline-block;
+    border: 10px double #493b52;
+    padding: 80px;
+    margin: 40px;
+    text-align: center;
+}
+    
+    
+.img-column img {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
