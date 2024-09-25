@@ -403,7 +403,7 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     height: 700px;
     border: 9px double #FFFFFF;
     padding: 20px;
@@ -418,12 +418,12 @@ body {
 #hero-menu .card-container .card {
     display: flex;
     flex-direction: column;  
-    border: 2px solid #FFFFFF;
+    border: 2px solid none;
     padding: 20px;
-    text-align: center;
-    margin: 24px;
-    margin-left: ;  
-    color: #2e874e;
+    text-align: center;;
+    margin-top: 200px;  
+    color: #ffffff;
+    background-color: #e0eae39e;
 }
 
 
