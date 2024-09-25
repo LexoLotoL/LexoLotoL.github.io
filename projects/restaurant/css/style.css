@@ -194,7 +194,7 @@ body {
     color: #352E30;
     display: inline-block;
     border: 10px solid none;
-    background-color: #ffffff3d;
+    background-color: #ffffff9d;
     border-radius: 0px 100px;
     padding: 0px 24px;
 }
@@ -274,4 +274,175 @@ body {
     height: 100%;
     width: 100%;
     object-fit:cover;
+}
+
+/***************************************************** 
+        Body - THERE CARDS
+*****************************************************/
+
+.single-column {
+    min-width: 800px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+    
+#card-section {
+    background: linear-gradient(to bottom, #352E30, #2E874E);
+    color: #352E30;
+    padding: 24px;
+}
+
+    
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-width: 800px;
+    max-width: 1200px;
+}
+     
+#card-section .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    border: 9px dashed #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    margin: 40px;
+    background-color: #ffffffb0;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+    padding: 10px
+}
+    
+.card p {
+    display: inline-block;
+    font-size: 28px;
+    margin: 24px 0px 0px;
+}
+
+.card img {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+
+.card div a {
+    font-size: 20px;
+    display: inline-block;
+    background-color: #695475;
+    border: 4px solid #493b52;
+    border-radius: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 100px;
+    margin-top: 40px;
+    align-items: flex-end;
+}
+
+.card div a:hover {
+    color: #2e874e;
+    border: 4px solid #2e874e;
+    border-radius: 50px;
+    font-weight: bold;
+    background: #ffffff;
+}
+
+/***************************************************** 
+        Body - THERE CARDS
+*****************************************************/
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+    
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+    
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+    
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+#footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+}
+
+#footer-columns-navbar div img {
+    width: 300px;
+    display: inline-block;
+    padding: 20px;
+}
+
+
+/***************************************************** 
+        Menu-Cards
+*****************************************************/
+
+#hero-menu .card-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 700px;
+    border: 9px double #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 400px;
+    background-image: url("../images/main.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+     
+#hero-menu .card-container .card {
+    display: flex;
+    flex-direction: column;  
+    border: 2px solid #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    margin: 24px;
+    margin-left: ;  
+    color: #2e874e;
+}
+
+
+.menu #card-section .card-container .card {
+    display: inline-block;
+    flex-direction: column;
+    margin: 24px;
+    padding: auto;
+    gap: 20px;
+}
+
+.menu #card-section .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    border: 9px dashed #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    margin: 40px;
+    background-color: #ffffffb0;
 }
