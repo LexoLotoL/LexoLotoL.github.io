@@ -6,3 +6,154 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+.poster-container {
+    background-color: #2c2d33;
+    padding: 48px 0px;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 400px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-column h3 {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 0px 80px;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.single-column h1 {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 40px;
+    font-size: 48px;
+}
+
+.single-column h2 {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 0px 150px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.card-section {
+    background: linear-gradient(
+        to bottom,
+        #2c2d33, 
+        #2a335b,
+        #2c2d33);
+    color: #352E30;
+    padding: 24px;
+}
+
+    
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    max-width: 900px;
+}
+
+.card-container .vs h1{
+    display: flex;
+    background-color: transparent;
+    color: aliceblue;
+}
+     
+.card-section .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    border: 8px inset #2c2d33;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    background-color: #000000;
+}
+
+.card h2 {
+    font-size: 36px;
+    margin: 80px 0px;
+    padding: 10px
+}
+
+.card2 h2 {
+    font-size: 36px;
+    margin: 0px 0px;
+    padding: 10px
+}
+
+.card img {
+    display: inline-block;
+    width: 380px;
+    height: 400px;
+}
+
+.single-column .date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0px 0px;
+    padding: 30px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.single-column .cta-container a {
+    font-size: 24px;
+    display: inline-block;
+    margin: 100px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    align-items: center;
+    background-color: #2a335b;
+    border: 4px solid #16102d;
+    border-radius: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+
+.single-column .cta-container a:hover {
+    font-size: 24px;
+    display: inline-block;
+    margin: 100px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    align-items: center;
+    background-color: #545a71;
+    border: 4px solid #16102d;
+    border-radius: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 50px;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+.single-column .p1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: aliceblue;
+    margin: 40px 0px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
