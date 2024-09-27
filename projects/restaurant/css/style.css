@@ -709,4 +709,9 @@ body {
         min-width: none;
         padding: 0px;
     }
+
+    .menu {
+        width: auto;
+        margin: 0px auto;
+    }
 }
