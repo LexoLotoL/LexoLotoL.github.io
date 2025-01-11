@@ -5,7 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #352E30;
+    background-color: #f8eed2;
 }
 
 
@@ -19,7 +19,7 @@ body {
     margin: 0px auto;}
     
 #navbar-top {
-    background-color: black;}
+    background-color: #7e3131;}
     
 #navbar-top .content-column {
     display: flex;
@@ -29,13 +29,14 @@ body {
     
 #navbar-top a {
     text-decoration: none;
-    color: #2e874e;
+    color: #ffffff;
     padding: 24px 0px;
 }
     
 #navbar-top .content-column div a {
     padding: 24px;
     font-size: 24px;
+    font-style: italic;
     margin-left: 485px;
 }
     
@@ -44,10 +45,10 @@ body {
 }
     
 #navbar-top .cta-buttom {
-    background-color: white;
-    color: green;
-    border-radius: 36px;
-    padding: 16px 24px;
+    background-color: #f34d4d;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 10px 24px;
     font-size: 24px;
     font-weight: bold;
     min-width: 150px;
@@ -55,7 +56,7 @@ body {
 }
     
 #navbar-bottom {
-    background: linear-gradient(to bottom, #352E30, #695475);
+    background: linear-gradient(to bottom, #f8e27e, #f0aa40);
 }
     
 #navbar-bottom .content-column {
@@ -68,7 +69,8 @@ body {
 #navbar-bottom a {
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    font-weight: bold;
+    color: #7e3131;
     padding: 12px 0px;
 }
 
@@ -78,7 +80,7 @@ body {
 
 .content-column #logo:hover {
     display: inline-block;
-    background-color: #69547515;
+    background-color: #7e3131;
     width: 200px;
     box-shadow: none;
     margin: 0px;
@@ -87,7 +89,7 @@ body {
 #navbar-top .content-column div a:hover {
     padding: 24px;
     font-size: 24px;
-    color: #695475;
+    color: #ec9a1f;
     margin-left: 485px;
     transition: 
         background-color 0.5s,
@@ -96,10 +98,10 @@ body {
 }
 
 #navbar-top .cta-buttom:hover {
-    background-color: #695475;
+    background-color: #ec9a1f;
     color: #ffffff;
-    border-radius: 36px;
-    padding: 16px 24px;
+    border-radius: 15px;
+    padding: 10px 24px;
     font-size: 24px;
     font-weight: bold;
     min-width: 150px;
@@ -112,7 +114,7 @@ body {
 
 #navbar-bottom .content-column a:hover {
     display: inline-block;
-    background: #695475;
+    background:#ec9a1f;
     padding: 12px 10px;
     border-radius: 24px solid none;
     box-shadow: 4px 4px 4px #00000033;
@@ -153,7 +155,7 @@ body {
 }
     
 .dropdown-menu a {
-    background-color: #2E874E;
+    background-color: #ec9a1f;
     width: 100%;
     min-width: 200px;
     transition: 
@@ -163,7 +165,7 @@ body {
 }
     
 #navbar .dropdown-menu a:hover {
-    background: #695475;
+    background: #f8e27e;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
@@ -187,7 +189,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 24px 24px;
-    border: 10px double #2E874E;
+    border: 10px double #7e3131;
 }
     
 #hero .hero-content {
@@ -213,10 +215,11 @@ body {
 #hero a {
     font-size: 24px;
     display: inline-block;
-    background-color: #695475;
-    border: 4px solid #493b52;
+    background-color: #7e3131;
+    border: 4px solid #ec9a1f;
     border-radius: 50px;
-    color: #FFFFFF;
+    color: #f8e27e;
+    font-weight: bold;
     text-decoration: none;
     padding: 24px 48px;
     margin: 5vh 2vw 10vh;
@@ -225,10 +228,10 @@ body {
 #hero .hero-content div a:hover {
     font-size: 24px;
     display: inline-block;
-    background-color: #2E874E;
-    border: 4px solid #1a4c2d;
+    background-color: #ec9a1f;
+    border: 4px solid #7e3131;
     border-radius: 50px;
-    color: #FFFFFF;
+    color: #f8e27e;
     text-decoration: none;
     padding: 24px 48px;
     margin: 5vh 2vw 10vh;
@@ -257,14 +260,14 @@ body {
 }
     
 .big-text-column {
-    background-color: #FFFFFF;
-    color: #2E874E;
+    background-color: #ec9a1f;
+    color: #7e3131;
     font-size: 28px;
 }
     
 .column-content {
     display: inline-block;
-    border: 10px double #493b52;
+    border: 10px double #7e3131;
     padding: 80px;
     margin: 40px;
     text-align: center;
@@ -288,8 +291,8 @@ body {
 }
     
 #card-section {
-    background: linear-gradient(to bottom, #352E30, #2E874E);
-    color: #352E30;
+    background:#7e3131;
+    color: #272524;
     padding: 24px;
 }
 
@@ -308,11 +311,11 @@ body {
     display: flex;
     flex-direction: column;
     height: 800px;
-    border: 9px dashed #FFFFFF;
+    border: 9px double #7e3131;
     padding: 20px;
     text-align: center;
     margin: 40px;
-    background-color: #ffffffb0;
+    background-color: #ffffff9d;
     border-radius: 24px;
 }
 
@@ -338,10 +341,11 @@ body {
 .card div a {
     font-size: 20px;
     display: inline-block;
-    background-color: #695475;
-    border: 4px solid #493b52;
+    background-color: #7e3131;
+    border: 4px solid #ec9a1f;
     border-radius: 50px;
-    color: #FFFFFF;
+    color: #f8eed2;
+    font-weight: bold;
     text-decoration: none;
     padding: 10px 100px;
     margin-top: 40px;
@@ -349,11 +353,11 @@ body {
 }
 
 .card div a:hover {
-    color: #2e874e;
-    border: 4px solid #2e874e;
+    color: #f8eed2;
+    border: 4px solid #7e3131;
     border-radius: 50px;
     font-weight: bold;
-    background: #ffffff;
+    background: #ec9a1f;
 }
 
 /***************************************************** 
@@ -361,7 +365,7 @@ body {
 *****************************************************/
 
 #footer {
-    background-color: black;
+    background: linear-gradient(to bottom, #ebad51, #f8e27e);
     color: white;
     padding: 12px;
 }
