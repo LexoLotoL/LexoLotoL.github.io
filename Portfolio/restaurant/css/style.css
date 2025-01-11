@@ -1,0 +1,717 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #352E30;
+}
+
+
+/***************************************************** 
+        Header - Navbar
+*****************************************************/
+
+
+.content-column {
+    width: 1000px;
+    margin: 0px auto;}
+    
+#navbar-top {
+    background-color: black;}
+    
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+    
+#navbar-top a {
+    text-decoration: none;
+    color: #2e874e;
+    padding: 24px 0px;
+}
+    
+#navbar-top .content-column div a {
+    padding: 24px;
+    font-size: 24px;
+    margin-left: 485px;
+}
+    
+#navbar-top #logo img {
+    width: 200px;
+}
+    
+#navbar-top .cta-buttom {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+    
+#navbar-bottom {
+    background: linear-gradient(to bottom, #352E30, #695475);
+}
+    
+#navbar-bottom .content-column {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+    
+#navbar-bottom a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 12px 0px;
+}
+
+/***************************************************** 
+        Header - Dropdown
+*****************************************************/
+
+.content-column #logo:hover {
+    display: inline-block;
+    background-color: #69547515;
+    width: 200px;
+    box-shadow: none;
+    margin: 0px;
+}
+
+#navbar-top .content-column div a:hover {
+    padding: 24px;
+    font-size: 24px;
+    color: #695475;
+    margin-left: 485px;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#navbar-top .cta-buttom:hover {
+    background-color: #695475;
+    color: #ffffff;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#navbar-bottom .content-column a:hover {
+    display: inline-block;
+    background: #695475;
+    padding: 12px 10px;
+    border-radius: 24px solid none;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+.dropdown-container {
+    position: relative;
+}
+    
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+    z-index: 10;
+}
+.dropdown-menu a {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin: 0px;
+    border: 1px solid none;
+    width: 100%;
+    min-width: 200px;
+    text-align: center;
+}
+    
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+    
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+    
+.dropdown-menu a {
+    background-color: #2E874E;
+    width: 100%;
+    min-width: 200px;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+    
+#navbar .dropdown-menu a:hover {
+    background: #695475;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+
+
+/***************************************************** 
+        Body - Hero
+*****************************************************/
+
+.spacer {
+    height: 100vh;
+}
+    
+#hero {
+    background-image: url("../images/delicious-traditional-pizza.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 24px;
+    border: 10px double #2E874E;
+}
+    
+#hero .hero-content {
+    text-align: center;
+    color: #352E30;
+    display: inline-block;
+    border: 10px solid none;
+    background-color: #ffffff9d;
+    border-radius: 0px 100px;
+    padding: 0px 24px;
+}
+    
+#hero h2 {
+    font-size: 60px;
+    margin-bottom: 5vh;
+}
+    
+#hero h4 {
+    font-size: 48px;
+    margin: 0px;
+}
+    
+#hero a {
+    font-size: 24px;
+    display: inline-block;
+    background-color: #695475;
+    border: 4px solid #493b52;
+    border-radius: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 24px 48px;
+    margin: 5vh 2vw 10vh;
+}
+
+#hero .hero-content div a:hover {
+    font-size: 24px;
+    display: inline-block;
+    background-color: #2E874E;
+    border: 4px solid #1a4c2d;
+    border-radius: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 24px 48px;
+    margin: 5vh 2vw 10vh;
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+/***************************************************** 
+        Body - TWO COLUMNS
+*****************************************************/
+
+.two-columns {
+    display: flex;
+    height: 80vh;
+    margin: 24px 24px;
+}
+    
+.big-text-column,
+.img-column {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.big-text-column {
+    background-color: #FFFFFF;
+    color: #2E874E;
+    font-size: 28px;
+}
+    
+.column-content {
+    display: inline-block;
+    border: 10px double #493b52;
+    padding: 80px;
+    margin: 40px;
+    text-align: center;
+}
+    
+    
+.img-column img {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+/***************************************************** 
+        Body - THERE CARDS
+*****************************************************/
+
+.single-column {
+    min-width: 800px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+    
+#card-section {
+    background: linear-gradient(to bottom, #352E30, #2E874E);
+    color: #352E30;
+    padding: 24px;
+}
+
+    
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-width: 800px;
+    max-width: 1200px;
+}
+     
+#card-section .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    border: 9px dashed #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    margin: 40px;
+    background-color: #ffffffb0;
+    border-radius: 24px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+    padding: 10px
+}
+    
+.card p {
+    display: inline-block;
+    font-size: 28px;
+    margin: 24px 0px 0px;
+}
+
+.card img {
+    display: inline-block;
+    width: 480px;
+    height: 400px;
+    border-radius: 24px;
+}
+
+.card div a {
+    font-size: 20px;
+    display: inline-block;
+    background-color: #695475;
+    border: 4px solid #493b52;
+    border-radius: 50px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 100px;
+    margin-top: 40px;
+    align-items: flex-end;
+}
+
+.card div a:hover {
+    color: #2e874e;
+    border: 4px solid #2e874e;
+    border-radius: 50px;
+    font-weight: bold;
+    background: #ffffff;
+}
+
+/***************************************************** 
+        Body - Footer
+*****************************************************/
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+    
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+    
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+    
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+#footer-columns-navbar a {
+    display: block;
+    padding: 8px 0px;
+}
+
+#footer-columns-navbar div img {
+    width: 300px;
+    display: inline-block;
+    padding: 20px;
+}
+
+
+/***************************************************** 
+        Menu-Cards
+*****************************************************/
+
+#hero-menu .card-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    border: 9px double #FFFFFF;
+    
+    text-align: center;
+    margin: 20px 400px;
+    background-image: url("../images/main.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+     
+#hero-menu .card-container .card {
+    display: flex;
+    flex-direction: column;  
+    border: 2px solid none;
+    padding: 22px;
+    text-align: center;;
+    margin-bottom: 280px; 
+    color: #352E30;
+    background-color: #e0eae39e;
+}
+
+.menu #card-section .card-container .card {
+    display: inline-block;
+    flex-direction: column;
+    margin: 24px;
+    padding: auto;
+    gap: 20px;
+}
+
+.menu #card-section .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    height: 500px;
+    border: 9px dashed #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    margin: 40px;
+    margin-bottom: auto;
+    background-color: #ffffffb0;
+}
+
+.menu #card-section .card h3{
+    font-size: 30px;
+}
+
+.menu #card-section .card-container .card img {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+}
+
+
+@media screen and (max-width: 1095px) {
+
+    .content-column {
+        width: auto;
+        margin: 0px auto;
+    }
+            
+    #navbar-top .content-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }  
+            
+    #navbar-top a {
+        text-decoration: none;
+        color: #2e874e;
+        padding: 20px;
+    }
+
+    #navbar-top .content-column div a {
+        padding: 24px;
+        font-size: 24px;
+        margin: 24px;
+    }
+
+    #navbar-top .content-column div a:hover {
+        padding: 24px;
+        font-size: 24px;
+        margin: 24px;
+    }
+            
+    #navbar-top .cta-buttom {
+        border-radius: 36px;
+        padding: 16px 24px;
+        font-size: 24px;
+        font-weight: bold;
+        min-width: 150px;
+        text-align: center;
+        margin: 24px;
+    }
+            
+    #navbar-bottom .content-column {
+        display: flex;
+        flex-direction: column;
+        align-content:center;
+        padding: 24px;
+    }
+            
+    #navbar-bottom a {
+        display: flex;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        margin-left: 24px;
+    }
+
+    #navbar-bottom .dropdown-menu {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        width: 200px;
+    }
+
+    #navbar-bottom .dropdown-menu a {
+        display: flex;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        margin-left: 150px;
+
+    }
+
+    #navbar-bottom .dropdown-menu a:hover {
+        display: flex;
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        margin-left: 150px;
+    }
+
+    #hero .content-column {
+        width: auto;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 24px 24px;
+        border: 10px double #2E874E;
+    }
+        
+    #hero .hero-content {
+        text-align: center;
+        color: #352E30;
+        display: inline-block;
+        border: 10px solid none;
+        background-color: #ffffff9d;
+        border-radius: 0px 100px;
+        padding: 0px 24px;
+    }
+        
+    #hero h2 {
+        font-size: 40px;
+        margin-bottom: 5vh;
+    }
+        
+    #hero h4 {
+        font-size: 24px;
+        margin: 0px;
+    }
+        
+    #hero a {
+        font-size: 20px;
+        display: inline-block;
+        border-radius: 50px;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 15px 15px;
+        margin: 4vh 1vh;
+    }
+
+    #hero .hero-content div a:hover {
+        font-size: 20px;
+        display: inline-block;
+        border-radius: 50px;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 15px 15px;
+        margin: 4vh 1vh;
+        transition: 
+            background-color 0.5s,
+            box-shadow 0.5s,
+            transform 0.5s;
+    }
+
+    .two-columns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        margin: 0px auto;
+    }
+        
+    .big-text-column {
+        background-color: #FFFFFF;
+        color: #2E874E;
+        font-size: 20px;
+        width: auto;
+    }
+
+    .big-text-column .column-content {
+        font-size: 20px;
+    }
+        
+    .img-column {
+        width: auto;  
+    }
+         
+    #card-section .single-column {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        width: auto;
+        height: min-content;
+        margin: 0px auto;
+    }
+
+    .card h3 {
+        font-size: 30px;
+    }
+        
+    .card p {
+        font-size: 20px;
+    }
+    
+    .card img {
+        width: auto;
+        margin: 0px auto;
+        border-radius: 24px;
+    }
+    
+    .card div a {
+        font-size: 20px;
+    }
+    
+    /* .card div a:hover {
+        color: #2e874e;
+        border: 4px solid #2e874e;
+        border-radius: 50px;
+        font-weight: bold;
+        background: #ffffff;
+    } */
+    
+    #footer #footer-columns-navbar {
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        width: auto;
+        margin: 0px auto;
+    }
+    
+    #hero .card-container {
+        width: auto;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 10px double #2E874E;
+    }
+        
+    #hero-menu .card-container {
+        text-align: center;
+        color: #352E30;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border: 10px solid none;
+        background-color: #ffffff9d;
+        padding: 0px 24px;
+    }
+
+    #hero-menu {
+        height: auto;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        flex: auto;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .menu #card-section {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width:none;
+        min-width: none;
+        padding: 0px;
+    }
+
+    .menu {
+        width: auto;
+        margin: 0px auto;
+    }
+}
